@@ -1,7 +1,7 @@
 Install [Homeport](https://github.com/bigeasy/homeport) from Homebrew.
 
 ```
-$ brew tap bigeasy/homeport
+$ brew tap bigeasy/homebrew
 $ brew install homeport
 $ homeport hello
 hello, world
