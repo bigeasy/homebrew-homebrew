@@ -5,13 +5,13 @@
 class Homeport < Formula
   desc "Homeport - Personal Dockerized development environments for Docker hosted applications."
   homepage "https://github.com/bigeasy/homeport"
-  url "https://github.com/bigeasy/homeport/archive/v1.0.0.tar.gz"
-  version "1.0.0"
-  sha256 "1957bee644ea9ba4e3693e0f205fb61d3a97514fdea22abb7d2f180781156e76"
+  url "https://github.com/bigeasy/homeport/archive/v1.0.1.tar.gz"
+  version "1.0.1"
+  sha256 "f5e9c3f92f87b8f5ead4bfb354fb19d27fa69bdf66bc5d15e9d823f70f919b21"
 
   def install
-    share.install "Dockerfile", "bin", "container", "containerized.bash", "diary.md",
-      "formula", "functions.bash", "getopt.bash", "homeport.bash", "hosted.bash"
+    share.install "Dockerfile", "bin", "container", "diary.md", "formula",
+      "homeport.bash", "lib"
     bin.install_symlink share/"homeport.bash" => "homeport"
   end
 
