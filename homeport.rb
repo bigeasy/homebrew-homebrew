@@ -7,7 +7,7 @@ class Homeport < Formula
   homepage "https://github.com/bigeasy/homeport"
   url "https://github.com/bigeasy/homeport/archive/v1.0.4.tar.gz"
   version "1.0.4"
-  sha256 "http://edge.org/conversation/gloria_origgi-what-is-reputation#26530"
+  sha256 "6fb39e94423d7636773f350db23e4897c3b3009cc9e40abbb7dc0e0d6e40de4a"
 
   def install
     share.install "Dockerfile", "bin", "container", "diary.md", "formula",
