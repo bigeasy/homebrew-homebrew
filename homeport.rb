@@ -5,9 +5,9 @@
 class Homeport < Formula
   desc "Homeport - Personal Dockerized development environments for Docker hosted applications."
   homepage "https://github.com/bigeasy/homeport"
-  url "https://github.com/bigeasy/homeport/archive/v1.0.5.tar.gz"
+  url "https://github.com/bigeasy/homeport/archive/v1.0.6.tar.gz"
   version "1.0.5"
-  sha256 "95d2a2d608bbffeac0c05e5b1b4acc825520bf6c7a0fcc69da2ef78ea22794d3"
+  sha256 "448edb341886d73aa0a2306ed4c48448278a6bd2a598536514bd165fb0111acc"
 
   def install
     share.install "Dockerfile", "bin", "container", "diary.md", "formula",
