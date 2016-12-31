@@ -6,7 +6,7 @@ class Homeport < Formula
   desc "Homeport - Personal Dockerized development environments for Docker hosted applications."
   homepage "https://github.com/bigeasy/homeport"
   url "https://github.com/bigeasy/homeport/archive/v1.0.8.tar.gz"
-  version "1.0.7"
+  version "1.0.8"
   sha256 "bdacf6dbdfd646752634c52920a52fd5287a69ddeea7b85c7975befbd1f64011"
 
   def install
